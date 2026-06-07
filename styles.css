@@ -791,6 +791,10 @@ h1 span {
   grid-template-columns: 0.72fr 1fr 1.32fr 1.55fr;
 }
 
+.source-matrix .comparison-row {
+  grid-template-columns: 0.38fr 1.45fr 1.15fr 0.9fr 0.6fr;
+}
+
 .comparison-row > * {
   padding: 18px 22px;
   border-right: 1px solid var(--line);
@@ -1316,6 +1320,10 @@ footer p {
 
   .prompt-matrix .comparison-row {
     min-width: 880px;
+  }
+
+  .source-matrix .comparison-row {
+    min-width: 900px;
   }
 
   .principles-list li {
