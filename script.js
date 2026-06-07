@@ -36,10 +36,7 @@ if ("IntersectionObserver" in window && sections.length > 0) {
       }
 
       navigationLinks.forEach((link) => {
-        const activeSection =
-          visibleSection.target.id === "trang-chu"
-            ? "#gioi-thieu"
-            : `#${visibleSection.target.id}`;
+        const activeSection = `#${visibleSection.target.id}`;
         link.classList.toggle("active", link.getAttribute("href") === activeSection);
       });
     },
