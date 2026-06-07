@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bài 3 - Viết prompt hiệu quả cho học tập của Bùi Minh Duy."
+    />
+    <title>Bài 3 | Viết prompt hiệu quả</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="project-page">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Về trang Portfolio">
+        <span class="brand-mark">D.</span>
+        <span>Bùi Minh Duy</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Mở trình đơn"
+        aria-expanded="false"
+        aria-controls="main-menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="main-menu" class="main-nav" aria-label="Điều hướng Bài 3">
+        <a href="index.html">Portfolio</a>
+        <a class="active" href="#tong-quan">Tổng quan</a>
+        <a href="#prompt">Prompt</a>
+        <a href="#minh-chung">Minh chứng</a>
+        <a href="#bao-cao">Báo cáo</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="tong-quan" class="project-hero" aria-labelledby="project-title">
+        <div class="project-hero-inner">
+          <div>
+            <p class="eyebrow light">Bài tập 3 · Portfolio cá nhân</p>
+            <h1 id="project-title">Viết prompt hiệu quả<br />cho học tập</h1>
+            <p class="project-lead">
+              Thử nghiệm 9 phiên bản prompt cho 3 tác vụ học tập phổ biến:
+              tóm tắt tài liệu học thuật, giải thích khái niệm phức tạp và
+              tạo bộ câu hỏi ôn tập. Kết quả được so sánh, phân tích và rút ra
+              nguyên tắc viết prompt có trách nhiệm.
+            </p>
+          </div>
+          <dl class="student-panel">
+            <div><dt>Họ và tên</dt><dd>Bùi Minh Duy</dd></div>
+            <div><dt>Mã sinh viên</dt><dd>25021688</dd></div>
+            <div><dt>Lớp</dt><dd>K70I/CS6</dd></div>
+            <div><dt>Ngày hoàn thành</dt><dd>08/06/2026</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="project-summary section-shell" aria-labelledby="summary-title">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="eyebrow">01 / Tổng quan</p>
+            <h2 id="summary-title">Đủ yêu cầu Bài 3</h2>
+          </div>
+          <p>
+            Bài làm có đủ 3 tác vụ học tập, 9 prompt theo ba mức độ, bảng so
+            sánh kết quả, 8 ảnh minh chứng và báo cáo PDF/Word 4 trang.
+          </p>
+        </div>
+
+        <div class="deliverables-grid">
+          <article><strong>01</strong><h3>3 tác vụ học tập</h3><p>Tóm tắt tài liệu, giải thích định lý Bayes và tạo câu hỏi ôn tập an toàn thông tin.</p></article>
+          <article><strong>02</strong><h3>9 phiên bản prompt</h3><p>Mỗi tác vụ có prompt cơ bản, cải tiến và nâng cao với kỹ thuật prompt engineering rõ ràng.</p></article>
+          <article><strong>03</strong><h3>So sánh kết quả</h3><p>Đánh giá độ rõ, độ đúng, tính ứng dụng và khả năng tự kiểm tra của từng mức prompt.</p></article>
+          <article><strong>04</strong><h3>Báo cáo 4 trang</h3><p>PDF/DOCX có phân tích hiệu quả prompt, nguyên tắc rút ra và ghi chú liêm chính học thuật.</p></article>
+        </div>
+      </section>
+
+      <section id="prompt" class="ai-log-section section-shell" aria-labelledby="prompt-title">
+        <div class="section-heading">
+          <p class="eyebrow">02 / Bảng prompt</p>
+          <h2 id="prompt-title">Ba mức prompt cho từng tác vụ</h2>
+        </div>
+
+        <article class="prompt-card">
+          <span>Nguyên tắc thử nghiệm</span>
+          <blockquote>
+            “Prompt tốt không chỉ hỏi AI làm gì, mà còn nói rõ học để làm gì,
+            trình bày ra sao, giới hạn ở đâu và kiểm tra bằng tiêu chí nào.”
+          </blockquote>
+        </article>
+
+        <div class="comparison-table prompt-matrix" role="table" aria-label="Bảng 9 prompt Bài 3">
+          <div class="comparison-row comparison-head" role="row">
+            <span role="columnheader">Tác vụ</span>
+            <span role="columnheader">Prompt cơ bản</span>
+            <span role="columnheader">Prompt cải tiến</span>
+            <span role="columnheader">Prompt nâng cao</span>
+          </div>
+          <div class="comparison-row" role="row">
+            <strong role="cell">Tóm tắt bài đọc</strong>
+            <span role="cell">“Tóm tắt đoạn đọc sau bằng tiếng Việt.”</span>
+            <span role="cell">Yêu cầu 1 luận điểm chính, 4 ý chính, 3 từ khóa, 1 khuyến nghị và không thêm thông tin ngoài đoạn đọc.</span>
+            <span role="cell">Đóng vai trợ giảng kỹ năng học tập; trình bày bảng ý chính - bằng chứng - ứng dụng, kèm hiểu lầm cần tránh.</span>
+          </div>
+          <div class="comparison-row" role="row">
+            <strong role="cell">Giải thích Bayes</strong>
+            <span role="cell">“Giải thích định lý Bayes cho dễ hiểu.”</span>
+            <span role="cell">Giải thích cho người mới học xác suất, gồm trực giác, công thức, ví dụ đời thường và lỗi thường gặp.</span>
+            <span role="cell">Đóng vai gia sư; dùng ví dụ số đơn giản, giải thích ký hiệu, đặt 2 câu hỏi kiểm tra và cảnh báo lỗi suy luận.</span>
+          </div>
+          <div class="comparison-row" role="row">
+            <strong role="cell">Câu hỏi ôn tập</strong>
+            <span role="cell">“Tạo câu hỏi ôn tập về an toàn thông tin.”</span>
+            <span role="cell">Tạo 10 câu hỏi gồm trắc nghiệm, tự luận ngắn, tình huống, có đáp án và mức độ khó.</span>
+            <span role="cell">Đóng vai giảng viên; tạo 12 câu hỏi bám 4 mục tiêu học tập, tăng dần độ khó, có lý do đúng và lỗi sai thường gặp.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="minh-chung" class="evidence-section section-shell" aria-labelledby="evidence-title">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="eyebrow">03 / Minh chứng thử nghiệm</p>
+            <h2 id="evidence-title">Prompt, kết quả và bảng so sánh</h2>
+          </div>
+          <p>
+            Các ảnh dưới đây là log minh chứng từ nội dung thử nghiệm, không
+            phải ảnh giả giao diện ChatGPT. Nếu giảng viên yêu cầu ảnh màn hình
+            UI thật, có thể chạy lại prompt và thay ảnh tại cùng vị trí.
+          </p>
+        </div>
+
+        <div class="evidence-gallery" aria-label="Tám ảnh minh chứng Bài 3">
+          <figure>
+            <img src="assets/bai-3/evidence-01-summary-prompts.png" alt="Ba prompt tác vụ tóm tắt" />
+            <figcaption>01 · Prompt tóm tắt</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/bai-3/evidence-02-summary-results.png" alt="Kết quả so sánh prompt tóm tắt" />
+            <figcaption>02 · Kết quả tóm tắt</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/bai-3/evidence-03-bayes-prompts.png" alt="Ba prompt giải thích định lý Bayes" />
+            <figcaption>03 · Prompt Bayes</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/bai-3/evidence-04-bayes-results.png" alt="Kết quả so sánh giải thích Bayes" />
+            <figcaption>04 · Kết quả Bayes</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/bai-3/evidence-05-quiz-prompts.png" alt="Ba prompt tạo câu hỏi ôn tập" />
+            <figcaption>05 · Prompt câu hỏi</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/bai-3/evidence-06-quiz-results.png" alt="Kết quả so sánh câu hỏi ôn tập" />
+            <figcaption>06 · Kết quả câu hỏi</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/bai-3/evidence-07-comparison-matrix.png" alt="Ma trận đánh giá 9 prompt" />
+            <figcaption>07 · Ma trận 9 prompt</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/bai-3/evidence-08-principles-integrity.png" alt="Nguyên tắc viết prompt và liêm chính học thuật" />
+            <figcaption>08 · Nguyên tắc và liêm chính</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="ethics-section section-shell" aria-labelledby="analysis-title">
+        <div class="section-heading">
+          <p class="eyebrow">04 / Phân tích</p>
+          <h2 id="analysis-title">Vì sao prompt nâng cao hiệu quả hơn?</h2>
+        </div>
+
+        <div class="ethics-grid">
+          <article>
+            <span>01</span>
+            <h3>Mục tiêu rõ</h3>
+            <p>Prompt nâng cao nói rõ người học cần hiểu, nhớ, vận dụng hay tự kiểm tra điều gì, nên câu trả lời ít lệch hướng.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Có ngữ cảnh</h3>
+            <p>Vai trò như trợ giảng, gia sư hoặc giảng viên giúp AI chọn cách diễn đạt phù hợp hơn với nhiệm vụ học tập.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Có tiêu chí</h3>
+            <p>Khuôn mẫu bảng, số lượng câu hỏi, đáp án và lỗi thường gặp giúp người học kiểm tra chất lượng đầu ra.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="bao-cao" class="report-section section-shell" aria-labelledby="report-title">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="eyebrow">05 / Báo cáo hoàn chỉnh</p>
+            <h2 id="report-title">Đọc trực tiếp hoặc tải về</h2>
+          </div>
+          <div class="report-actions">
+            <a class="button button-primary" href="bai-3/04_Bao-cao/B3_BuiMinhDuy_20260608_Bao-cao-prompt-engineering_v01.pdf" target="_blank" rel="noopener">
+              Mở PDF
+            </a>
+            <a class="button button-secondary" href="bai-3/04_Bao-cao/B3_BuiMinhDuy_20260608_Bao-cao-prompt-engineering_v01.docx">
+              Tải Word
+            </a>
+          </div>
+        </div>
+        <object
+          class="pdf-viewer"
+          data="bai-3/04_Bao-cao/B3_BuiMinhDuy_20260608_Bao-cao-prompt-engineering_v01.pdf"
+          type="application/pdf"
+        >
+          <p>
+            Trình duyệt không hỗ trợ xem PDF trực tiếp.
+            <a href="bai-3/04_Bao-cao/B3_BuiMinhDuy_20260608_Bao-cao-prompt-engineering_v01.pdf">Mở báo cáo tại đây.</a>
+          </p>
+        </object>
+      </section>
+
+      <section class="integrity-section section-shell" aria-labelledby="integrity-title">
+        <div class="integrity-card">
+          <div>
+            <p class="eyebrow">06 / Liêm chính học thuật</p>
+            <h2 id="integrity-title">Minh bạch cách dùng AI</h2>
+          </div>
+          <div>
+            <p>
+              Nội dung Bài 3 được viết mới dựa trên rubric và thử nghiệm prompt
+              ngày 08/06/2026. AI được dùng như công cụ hỗ trợ tạo, so sánh và
+              trình bày kết quả; phần chọn tác vụ, biên tập, phân tích và chịu
+              trách nhiệm cuối cùng thuộc về người học.
+            </p>
+            <p>
+              Phần rà trùng lặp được thực hiện thủ công trên các cụm câu đại
+              diện và không phát hiện dấu hiệu sao chép nguyên văn. Đây không
+              phải báo cáo Turnitin và không thể bảo đảm tuyệt đối 0%, nhưng
+              bài làm tránh bịa nguồn, tránh ảnh giả và ghi rõ giới hạn minh chứng.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="current-year">2026</span> Bùi Minh Duy</p>
+      <p>MSSV 25021688 · Lớp K70I/CS6</p>
+    </footer>
+  </body>
+</html>

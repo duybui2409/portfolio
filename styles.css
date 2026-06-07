@@ -723,6 +723,7 @@ h1 span {
 .ai-log-section,
 .ethics-section,
 .infographic-section,
+.evidence-section,
 .report-section,
 .integrity-section,
 .reflection-section,
@@ -784,6 +785,10 @@ h1 span {
 
 .ai-comparison .comparison-row {
   grid-template-columns: 0.8fr 1fr 1fr 1fr;
+}
+
+.prompt-matrix .comparison-row {
+  grid-template-columns: 0.72fr 1fr 1.32fr 1.55fr;
 }
 
 .comparison-row > * {
@@ -1307,6 +1312,10 @@ footer p {
 
   .ai-comparison .comparison-row {
     min-width: 780px;
+  }
+
+  .prompt-matrix .comparison-row {
+    min-width: 880px;
   }
 
   .principles-list li {
