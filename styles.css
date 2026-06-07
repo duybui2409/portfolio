@@ -23,6 +23,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
   color: var(--ink);
   background: var(--cream);
   font-family: "Be Vietnam Pro", Arial, sans-serif;
@@ -544,7 +545,7 @@ h1 span {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: 0.78fr 1.22fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 22px;
 }
 
@@ -781,6 +782,10 @@ h1 span {
   grid-template-columns: 0.7fr 1.15fr 1.15fr;
 }
 
+.ai-comparison .comparison-row {
+  grid-template-columns: 0.8fr 1fr 1fr 1fr;
+}
+
 .comparison-row > * {
   padding: 18px 22px;
   border-right: 1px solid var(--line);
@@ -844,6 +849,36 @@ h1 span {
 .process-grid p {
   color: var(--ink-soft);
   font-size: 0.84rem;
+}
+
+.evidence-gallery {
+  display: grid;
+  margin-top: 34px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.evidence-gallery figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--white);
+  box-shadow: 0 12px 30px rgba(24, 51, 42, 0.08);
+}
+
+.evidence-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.evidence-gallery figcaption {
+  padding: 14px 16px 16px;
+  color: var(--ink-soft);
+  font-size: 0.74rem;
+  font-weight: 700;
 }
 
 .ethics-grid {
@@ -1158,6 +1193,7 @@ footer p {
   }
 
   .deliverables-grid,
+  .evidence-gallery,
   .ethics-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1256,6 +1292,7 @@ footer p {
 
   .projects-grid,
   .deliverables-grid,
+  .evidence-gallery,
   .ethics-grid {
     grid-template-columns: 1fr;
   }
@@ -1266,6 +1303,10 @@ footer p {
 
   .comparison-row {
     min-width: 700px;
+  }
+
+  .ai-comparison .comparison-row {
+    min-width: 780px;
   }
 
   .principles-list li {
