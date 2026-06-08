@@ -795,6 +795,10 @@ h1 span {
   grid-template-columns: 0.38fr 1.45fr 1.15fr 0.9fr 0.6fr;
 }
 
+.fileops-matrix .comparison-row {
+  grid-template-columns: 0.38fr 1.25fr 1.75fr 0.68fr;
+}
+
 .comparison-row > * {
   padding: 18px 22px;
   border-right: 1px solid var(--line);
@@ -1324,6 +1328,10 @@ footer p {
 
   .source-matrix .comparison-row {
     min-width: 900px;
+  }
+
+  .fileops-matrix .comparison-row {
+    min-width: 860px;
   }
 
   .principles-list li {

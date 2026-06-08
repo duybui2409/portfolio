@@ -1,0 +1,34 @@
+BAI 1 - BAO CAO THUC HANH TEP TIN VA THU MUC
+Ho va ten: Bui Minh Duy
+Ma sinh vien: 25021688
+Lop: K70I/CS6
+Ngay hoan thanh: 08/06/2026
+
+1. Muc tieu
+Ren luyen thao tac tao, doi ten, sao chep, di chuyen, xoa va khoi phuc tep/thu muc tren Windows.
+
+2. Vi tri thuc hanh
+Thu muc thuc hanh: bai-1/01_Thuc-hanh/ThucHanh_BuiMinhDuy
+Vi tri nay nam trong workspace Portfolio va duoc kiem soat de khong anh huong tep ca nhan khac.
+
+3. Cac buoc da thuc hien
+01. Mở File Explorer và chọn vị trí: Mở File Explorer bằng Windows + E, chọn Documents/Portfolio làm khu vực thực hành vì máy đang dùng ổ OneDrive Documents.
+02. Tạo thư mục ThucHanh_BuiMinhDuy: Tạo thư mục mới và đặt tên theo quy tắc ThucHanh_hotensinhvien.
+03. Tạo tệp GhiChu.txt: Vào thư mục vừa tạo, tạo tệp văn bản GhiChu.txt.
+04. Đổi tên thành GhiChuQuanTrong.txt: Đổi tên tệp GhiChu.txt thành GhiChuQuanTrong.txt.
+05. Tạo thư mục con TaiLieu: Tạo thư mục con TaiLieu trong ThucHanh_BuiMinhDuy.
+06. Copy/Paste tệp vào TaiLieu: Sao chép GhiChuQuanTrong.txt vào thư mục TaiLieu, giữ bản gốc ở thư mục ngoài.
+07. Tạo tệp DiChuyen.txt: Quay lại thư mục gốc và tạo tệp DiChuyen.txt để minh chứng thao tác Cut/Paste.
+08. Cut/Paste DiChuyen.txt: Di chuyển DiChuyen.txt vào TaiLieu; tệp gốc biến mất khỏi vị trí cũ.
+09. Delete vào thùng rác: Xóa GhiChuQuanTrong.txt trong TaiLieu. Trong minh chứng an toàn, tệp được đưa vào RecycleBin_MinhChung.
+10. Shift+Delete và Restore: Xóa vĩnh viễn DiChuyen.txt, sau đó khôi phục GhiChuQuanTrong.txt từ thùng rác minh chứng về TaiLieu.
+
+4. Trang thai cuoi cung
+- Thu muc goc ThucHanh_BuiMinhDuy co tep GhiChuQuanTrong.txt.
+- Thu muc con TaiLieu co tep GhiChuQuanTrong.txt da duoc khoi phuc.
+- Tep DiChuyen.txt da bi xoa vinh vien trong pham vi bai thuc hanh.
+- Nhat ky thao tac duoc luu tai bai-1/01_Thuc-hanh/B1_BuiMinhDuy_20260608_Nhat-ky-thao-tac_v01.txt.
+
+5. Ghi chu liem chinh
+Anh minh chung la log truc quan tu thao tac thuc te trong thu muc bai lam, khong phai anh gia giao dien File Explorer.
+Do khong can thiep thung rac he thong cua may nguoi dung, buoc Delete/Restore duoc minh hoa an toan bang RecycleBin_MinhChung.

@@ -1,0 +1,12 @@
+﻿01. Mo File Explorer bang Windows + E; chon Documents/Portfolio lam thu muc thuc hanh.
+02. Tao thu muc ThucHanh_BuiMinhDuy trong bai-1/01_Thuc-hanh.
+03. Tao tep van ban GhiChu.txt trong thu muc thuc hanh.
+04. Doi ten GhiChu.txt thanh GhiChuQuanTrong.txt.
+05. Tao thu muc con TaiLieu.
+06. Copy GhiChuQuanTrong.txt vao thu muc TaiLieu.
+07. Tao tep DiChuyen.txt tai thu muc goc.
+08. Cut/Paste: di chuyen DiChuyen.txt vao TaiLieu; tep khong con o thu muc goc.
+09. Delete: dua ban sao GhiChuQuanTrong.txt tu TaiLieu vao RecycleBin_MinhChung de minh hoa thung rac an toan.
+10. Shift+Delete: xoa vinh vien DiChuyen.txt trong TaiLieu.
+11. Restore: khoi phuc GhiChuQuanTrong.txt ve TaiLieu.
+12. Trang thai cuoi: thu muc goc co GhiChuQuanTrong.txt va TaiLieu; TaiLieu co GhiChuQuanTrong.txt; DiChuyen.txt da bi xoa vinh vien.
