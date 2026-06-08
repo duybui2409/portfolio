@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img" aria-labelledby="title desc">
+  <title id="title">Minh họa định hướng AI có trách nhiệm</title>
+  <desc id="desc">Một la bàn số hướng tới AI có trách nhiệm và kiểm chứng thông tin.</desc>
+  <rect width="520" height="320" rx="34" fill="#143F2F"/>
+  <path d="M70 246c76-74 152-94 228-60 74 34 124 22 174-46" fill="none" stroke="#9ED2B4" stroke-width="4" opacity=".38"/>
+  <circle cx="272" cy="154" r="92" fill="#DCEFE5"/>
+  <circle cx="272" cy="154" r="58" fill="#F8F6EF"/>
+  <path d="M272 82l30 72-30 72-30-72 30-72z" fill="#1F6B45"/>
+  <path d="M272 104l14 50-14 50-14-50 14-50z" fill="#D5A84F"/>
+  <g font-family="Arial, sans-serif" font-weight="800" text-anchor="middle">
+    <text x="272" y="286" fill="#F8F6EF" font-size="24">AI có trách nhiệm</text>
+    <text x="272" y="42" fill="#A9D7BC" font-size="18">VERIFY · LEARN · BUILD</text>
+  </g>
+  <g fill="#F8F6EF" opacity=".95">
+    <circle cx="92" cy="82" r="18"/>
+    <circle cx="438" cy="82" r="12"/>
+    <circle cx="448" cy="244" r="24"/>
+  </g>
+  <g stroke="#A9D7BC" stroke-width="3" opacity=".62">
+    <path d="M92 82h346M438 82l10 162M92 82l356 162"/>
+  </g>
+</svg>

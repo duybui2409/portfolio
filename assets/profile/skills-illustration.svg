@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img" aria-labelledby="title desc">
+  <title id="title">Minh họa kỹ năng số</title>
+  <desc id="desc">Các thẻ kỹ năng số, biểu tượng prompt, tìm kiếm và hợp tác.</desc>
+  <rect width="520" height="320" rx="34" fill="#F8F6EF"/>
+  <circle cx="430" cy="72" r="58" fill="#DCEFE5"/>
+  <circle cx="90" cy="250" r="76" fill="#E9DFCC" opacity=".52"/>
+  <g fill="#fff" stroke="#BAD8C8" stroke-width="3">
+    <rect x="58" y="56" width="164" height="76" rx="20"/>
+    <rect x="268" y="56" width="194" height="76" rx="20"/>
+    <rect x="58" y="174" width="184" height="82" rx="20"/>
+    <rect x="292" y="174" width="170" height="82" rx="20"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-weight="800" fill="#173F35">
+    <text x="92" y="104" font-size="22">Prompt</text>
+    <text x="304" y="104" font-size="22">Research</text>
+    <text x="94" y="224" font-size="22">Teamwork</text>
+    <text x="332" y="224" font-size="22">Design</text>
+  </g>
+  <g stroke="#1F6B45" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M78 90h-18m18 18h-18m402 92h20m-20 18h20"/>
+    <path d="M286 92l18 18 36-42"/>
+    <path d="M76 205c20-28 48-28 68 0 20-28 48-28 68 0"/>
+    <path d="M326 198h42v42h-42z"/>
+  </g>
+</svg>

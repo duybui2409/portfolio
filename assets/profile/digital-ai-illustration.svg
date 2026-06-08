@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+  <title id="title">Minh họa công nghệ số và AI</title>
+  <desc id="desc">Một giao diện số với mạng nơ-ron, chip AI và các nút dữ liệu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="110" y1="88" x2="640" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9F4EC"/>
+      <stop offset="1" stop-color="#CFE7D8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="194" y1="182" x2="582" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EAF5EF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#173F35" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" rx="220" fill="url(#bg)"/>
+  <path d="M88 546c78-66 150-91 216-74 89 23 127 111 230 101 62-6 111-47 154-107" fill="none" stroke="#8FC6A7" stroke-width="3" opacity=".62"/>
+  <path d="M548 78c-34 88-24 167 31 237 36 46 79 77 131 93" fill="none" stroke="#8FC6A7" stroke-width="3" opacity=".6"/>
+  <g filter="url(#shadow)">
+    <rect x="174" y="176" width="412" height="380" rx="38" fill="url(#panel)" stroke="#BAD8C8" stroke-width="3"/>
+    <rect x="210" y="218" width="340" height="54" rx="18" fill="#173F35"/>
+    <circle cx="238" cy="245" r="7" fill="#D5A84F"/>
+    <circle cx="264" cy="245" r="7" fill="#A9D7BC"/>
+    <circle cx="290" cy="245" r="7" fill="#F8F6EF"/>
+    <text x="326" y="251" fill="#F8F6EF" font-family="Arial, sans-serif" font-size="20" font-weight="700">AI SYSTEM</text>
+    <rect x="244" y="326" width="112" height="112" rx="24" fill="#DCEFE5" stroke="#1F6B45" stroke-width="4"/>
+    <text x="276" y="393" fill="#173F35" font-family="Arial, sans-serif" font-size="34" font-weight="800">AI</text>
+    <g fill="#1F6B45">
+      <circle cx="448" cy="326" r="14"/>
+      <circle cx="500" cy="383" r="14"/>
+      <circle cx="448" cy="438" r="14"/>
+      <circle cx="404" cy="383" r="14"/>
+    </g>
+    <g stroke="#1F6B45" stroke-width="5" stroke-linecap="round">
+      <path d="M448 326l52 57-52 55-44-55 44-57z" fill="none"/>
+      <path d="M356 382h48M514 383h34M300 326v-42M300 438v42"/>
+    </g>
+    <rect x="226" y="486" width="308" height="24" rx="12" fill="#DCEFE5"/>
+    <rect x="226" y="486" width="190" height="24" rx="12" fill="#1F6B45"/>
+  </g>
+  <g fill="#173F35">
+    <circle cx="118" cy="120" r="23"/>
+    <circle cx="655" cy="178" r="44" opacity=".12"/>
+    <circle cx="626" cy="622" r="30" opacity=".18"/>
+  </g>
+</svg>
